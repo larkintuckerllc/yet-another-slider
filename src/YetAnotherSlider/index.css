@@ -1,0 +1,39 @@
+#root {
+  background-color: red;
+}
+#root div {
+  box-sizing: border-box;
+}
+#rootRail {
+  position: relative;
+}
+#rootRailBar {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 0px;
+  top: 50%;
+  width: 100%;
+}
+#rootRailLeft {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: width 0.3s;
+}
+#rootRailRange {
+  position: absolute;
+  top: 0px;
+  transition: left 0.3s, right 0.3s;
+}
+#rootRailRight {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  transition: width 0.3s;
+}
+.rootRailThumb {
+  position: absolute;
+  top: 0px;
+  transition: left 0.3s;
+  transform: translateX(-50%);
+}
